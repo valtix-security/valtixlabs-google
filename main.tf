@@ -36,7 +36,7 @@ resource "google_compute_instance" "vm_instance" {
     }
   }
   metadata_startup_script = file("./startup.sh")
-  metadata = {
+  labels = {
     AppEnv = "prod"
   }
 }
