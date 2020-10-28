@@ -5,7 +5,7 @@ provider "google" {
 }
 
 module "vpc" {
-  source               = "https://github.com/valtix-security/terraform-google-valtix-vpc.git"
+  source               = "github.com/valtix-security/terraform-google-valtix-vpc"
   mgmt_subnet_cidr     = "10.2.0.0/24"
   datapath_subnet_cidr = "10.3.0.0/24"
   egress_subnet_cidr   = "10.4.0.0/24"
