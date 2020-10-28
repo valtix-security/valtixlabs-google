@@ -18,3 +18,4 @@ git clone https://github.com/valtix-security/valtixlabs-google.git<br>
 cd valtixlabs-google<br>
 terraform init<br>
 terraform plan<br>
+terraform apply<br>
