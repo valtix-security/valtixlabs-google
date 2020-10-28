@@ -1,5 +1,5 @@
 data "google_compute_forwarding_rule" "egress-ilb" {
-  network = var.egress_vpc_name
+  name = var.forwarding_rule_name
 }
 
 #Create egress route to Valtix gateway
