@@ -6,10 +6,10 @@ This repo contains Terraform example that creates VPCs and a test instance.  Aft
 #run the onboarding script to create IAM roles<br>
 wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_account.sh<br>
 chmod +x valtix_gcp_service_account.sh<br>
-./valtix_gcp_service_account.sh<br><br>
+./valtix_gcp_service_account.sh<br>
 
 #enable google cloud compute APIs<br>
-gcloud services enable compute.googleapis.com<br><br>
+gcloud services enable compute.googleapis.com<br>
 
 #clone terraform template<br>
 git clone https://github.com/valtix-security/valtixlabs-google.git<br>
