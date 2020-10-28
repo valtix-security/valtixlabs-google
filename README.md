@@ -3,6 +3,8 @@ This repo contains Terraform example that creates VPCs and a test instance.  Aft
 
 <b>How to use:</b>
 
+Open GCloud shell in the project you wish to deploy<br>
+
 #run the onboarding script to create IAM roles<br>
 wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_account.sh<br>
 chmod +x valtix_gcp_service_account.sh<br>
