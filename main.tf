@@ -30,7 +30,6 @@ resource "google_compute_instance" "vm_instance" {
   }
 
   network_interface {
-    # A default network is created for all GCP projects
     network    = module.vpc.datapath_vpc_id
     subnetwork = module.vpc.datapath_subnet_id
     access_config {
