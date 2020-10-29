@@ -7,24 +7,24 @@ Open GCloud shell in the project you wish to deploy<br>
 
 ### GCP Valtix onboarding script
 ```
-wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_accounts/valtix_gcp_service_account.sh<br>
-chmod +x valtix_gcp_service_account.sh<br>
-./valtix_gcp_service_account.sh<br>
+wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_accounts/valtix_gcp_service_account.sh
+chmod +x valtix_gcp_service_account.sh
+./valtix_gcp_service_account.sh
 ```
 
 ### Enable GCP compute & IAM APIs
 ```
-gcloud services enable compute.googleapis.com<br>
+gcloud services enable compute.googleapis.com
 gcloud services enable iam.googleapis.com
 ```
 
 ### Clone terraform template
 ```
-git clone https://github.com/valtix-security/valtixlabs-google.git<br>
-cd valtixlabs-google<br>
-terraform init<br>
-terraform plan<br>
-terraform apply<br>
+git clone https://github.com/valtix-security/valtixlabs-google.git
+cd valtixlabs-google
+terraform init
+terraform plan
+terraform apply
 ```
 
 ### Deploy Valtix gateways
