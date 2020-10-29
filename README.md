@@ -8,8 +8,7 @@ Open GCloud shell in the project you wish to deploy<br>
 ### GCP Valtix onboarding script
 ```
 wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_accounts/valtix_gcp_service_account.sh
-chmod +x valtix_gcp_service_account.sh
-./valtix_gcp_service_account.sh
+bash valtix_gcp_service_account.sh
 ```
 
 ### Enable GCP compute & IAM APIs
