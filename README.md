@@ -28,4 +28,4 @@ https://prod1-dashboard.vtxsecurityservices.com/static/docs/implementation/gcp_e
 #when you're finished.. clean it up<br>
 terraform destroy<br>
 
-<img src="https://raw.githubusercontent.com/valtix-security/gists/main/valtixlabs-google/ValtixLabs-Google-diag.png">
+<img src="https://raw.githubusercontent.com/valtix-security/valtixlabs-google/master/ValtixLabs-Google-diag.png">
