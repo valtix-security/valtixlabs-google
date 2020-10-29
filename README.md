@@ -22,6 +22,9 @@ terraform init<br>
 terraform plan<br>
 terraform apply<br>
 
+#deploy Valtix gateways<br>
+You can now deploy the Valtix ingress gateway into datapath-vpc and Valtix egress gateway into egress-vpc.  Each of these gateways will also have a connection into mgmt-vpc for management.<br>
+
 (Optional) for testing Egress, please follow the instructions here after creating your Valtix gateways:
 https://prod1-dashboard.vtxsecurityservices.com/static/docs/implementation/gcp_egress/
 
