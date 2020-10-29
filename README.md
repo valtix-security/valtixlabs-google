@@ -22,5 +22,5 @@ terraform init<br>
 terraform plan<br>
 terraform apply<br>
 
-#when you're finished.. clean it up
+#when you're finished.. clean it up<br>
 terraform destroy<br>
