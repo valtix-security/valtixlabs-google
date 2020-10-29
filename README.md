@@ -1,5 +1,5 @@
 # valtixlabs-google
-This repo contains Terraform example that creates VPCs and a test instance.  After deployment, you should have 3 VPCs and a test Ubuntu instance
+This repo contains Terraform example that creates VPCs and a test instance.  After deployment, you should have 3 VPCs and a test Ubuntu instance that is running Apache web services listening on port 80.
 
 <b>How to use:</b>
 
