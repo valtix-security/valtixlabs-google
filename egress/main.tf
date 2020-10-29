@@ -25,8 +25,8 @@ resource "google_compute_firewall" "healthcheck-firewall-rule" {
   name    = "${var.egress_vpc_name}-healthcheck-rule"
   network = var.egress_vpc_name
 
-  source_ranges = ["35.191.0.0/16","130.211.0.0/22"]
-  target_tags = [var.egress_network_tag]
+  source_ranges = ["35.191.0.0/16", "130.211.0.0/22"]
+  target_tags   = [var.egress_network_tag]
 
   allow {
     protocol = "tcp"
