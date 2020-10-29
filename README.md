@@ -22,5 +22,8 @@ terraform init<br>
 terraform plan<br>
 terraform apply<br>
 
+(Optional) for testing Egress, please follow the instructions here:
+https://prod1-dashboard.vtxsecurityservices.com/static/docs/implementation/gcp_egress/
+
 #when you're finished.. clean it up<br>
 terraform destroy<br>
