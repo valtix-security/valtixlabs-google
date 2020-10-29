@@ -1,11 +1,11 @@
 # valtixlabs-google
 This repo contains Terraform example that creates VPCs and a test instance.  After deployment, you should have 3 VPCs and a test Ubuntu instance that is running Apache web services listening on port 80.
 
-<b>How to use:</b>
+##How to use:
 
 Open GCloud shell in the project you wish to deploy<br>
 
-#run the onboarding script to create GCP Service Accounts<br>
+##GCP Valtix onboarding script
 wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_accounts/valtix_gcp_service_account.sh<br>
 chmod +x valtix_gcp_service_account.sh<br>
 ./valtix_gcp_service_account.sh<br>
