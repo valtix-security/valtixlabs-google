@@ -10,8 +10,9 @@ wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_ser
 chmod +x valtix_gcp_service_account.sh<br>
 ./valtix_gcp_service_account.sh<br>
 
-#enable google cloud compute APIs<br>
+#enable google cloud compute & IAM APIs<br>
 gcloud services enable compute.googleapis.com<br>
+gcloud services enable iam.googleapis.com
 
 #clone terraform template<br>
 git clone https://github.com/valtix-security/valtixlabs-google.git<br>
