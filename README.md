@@ -6,11 +6,10 @@ This repo contains Terraform example that creates VPCs and a test instance.  Aft
 Open GCloud shell in the project you wish to deploy<br>
 
 #run the onboarding script to create IAM roles<br>
+#the output here will be used when setting up the Valtix gateways in the UI<br>
 wget https://raw.githubusercontent.com/valtix-security/gists/main/valtix_gcp_service_accounts/valtix_gcp_service_account.sh<br>
-
 chmod +x valtix_gcp_service_account.sh<br>
 ./valtix_gcp_service_account.sh<br>
-#the output here will be used when setting up the Valtix gateways in the UI
 
 #enable google cloud compute APIs<br>
 gcloud services enable compute.googleapis.com<br>
