@@ -36,5 +36,5 @@ https://prod1-dashboard.vtxsecurityservices.com/static/docs/implementation/gcp_e
 ```
 terraform destroy
 ```
-### Resulting diagram
+## Resulting diagram
 <img src="https://raw.githubusercontent.com/valtix-security/valtixlabs-google/master/ValtixLabs-Google-diag.png">
