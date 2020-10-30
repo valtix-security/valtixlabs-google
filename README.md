@@ -5,7 +5,7 @@ This repo contains Terraform example that creates VPCs and a test instance.  Aft
 
 Open GCloud shell and ensure you are running on the correct project
 ```
-gcloud config set project <project-name>
+gcloud config set project <project-id>
 ```
 
 ### GCP Valtix onboarding script
