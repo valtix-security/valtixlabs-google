@@ -1,6 +1,6 @@
 provider "google" {
   credentials = file("../valtix_key.json")
-  project     = var.project_name
+  project     = var.project_id
   region      = "us-west1"
 }
 

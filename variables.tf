@@ -1,3 +1,3 @@
-variable "project_name" {
-  description = "Google Cloud project name"
+variable "project_id" {
+  description = "Google Cloud project ID"
 }
